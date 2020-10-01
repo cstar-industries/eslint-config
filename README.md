@@ -26,3 +26,7 @@ module.exports = {
   },
 };
 ```
+
+## License
+
+Do What the Fuck You Want to Public License, version 2 ([license](LICENSE))
