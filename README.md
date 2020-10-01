@@ -1,5 +1,3 @@
-# `@cstar-industries/eslint-config`
-
 ## Usage
 
 Install with `npm` (or `yarn`, if that's your thing).
