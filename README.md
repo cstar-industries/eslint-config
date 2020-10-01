@@ -14,7 +14,8 @@ You will need to install the peer dependencies inside your project:
 npm install eslint@6.x eslint-plugin-prettier@...
 ```
 
-> :warning: Make sure you use compatible versions from the peerDependencies definitions!
+> :warning: Make sure you use compatible versions from the peerDependencies
+> definitions!
 
 Then configure ESLint to use the configuration rules. In your `.eslintrc.js`:
 
@@ -26,6 +27,16 @@ module.exports = {
   },
 };
 ```
+
+## Contributing
+
+Feel free to contribute suggestions to this repository.
+
+If you are a member of the core @cstar-industries team, create a new branch,
+commit your changes and submit a pull request.
+
+If you are outside the team, fork the public repo, commit your changes and
+submit a pull request.
 
 ## License
 
