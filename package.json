@@ -1,0 +1,25 @@
+{
+  "name": "@cstar-industries/eslint-config",
+  "version": "1.0.0",
+  "description": "The common ESLint configuration for Cstar Industries projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cstar-industries/eslint-config.git"
+  },
+  "author": "Charles Francoise <charles@cstar.io>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/cstar-industries/eslint-config/issues"
+  },
+  "homepage": "https://github.com/cstar-industries/eslint-config#readme",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^6.12.0"
+  },
+  "peerDependencies": {
+    "eslint-import-resolver-webpack": "^0.12.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3"
+  }
+}
