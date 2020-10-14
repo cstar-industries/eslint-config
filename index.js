@@ -1,10 +1,12 @@
 module.exports = {
   env: {
     node: true,
+    browser: true,
     es6: true
   },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: 'babel-eslint',
+    ecmaVersion: 2019
   },
   plugins: ['prettier'],
   extends: ['eslint:recommended', 'plugin:import/errors', 'prettier'],
