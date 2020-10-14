@@ -9,12 +9,20 @@ module.exports = {
   plugins: ['prettier'],
   extends: ['eslint:recommended', 'plugin:import/errors', 'prettier'],
   rules: {
-    'prettier/prettier': 'warn',
+    'prettier/prettier': [
+      'warn',
+      {
+        singleQuote: true,
+        printWidth: 120,
+        trailingComma: 'none',
+        htmlWhitespaceSensitivity: 'ignore'
+      }
+    ],
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     eqeqeq: ['error', 'always'],
     quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: false }],
-    'curly': ['error', 'all'],
+    curly: ['error', 'all'],
     'no-var': 'error',
     'prefer-const': 'error',
     'no-unused-vars': [
