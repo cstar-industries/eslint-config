@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/%40cstar-industries%2Feslint-config.svg)](https://www.npmjs.com/package/@cstar-industries/eslint-config)
+
 ## Usage
 
 Install with `npm` (or `yarn`, if that's your thing).
