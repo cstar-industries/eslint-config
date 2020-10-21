@@ -21,10 +21,18 @@ Then configure ESLint to use the configuration rules. In your `.eslintrc.js`:
 
 ```javascript
 module.exports = {
-  extends: ['@cstar-industries'],
+  extends: ['@cstar-industries']
+};
+```
+
+If you are using [Webpack](https://webpack.js.org/), you will need to add the following setting:
+
+```javascript
+module.exports = {
+  ...
   settings: {
     'import/resolver': 'webpack',
-  },
+  }
 };
 ```
 
