@@ -17,7 +17,7 @@ module.exports = {
         singleQuote: true,
         printWidth: 120,
         trailingComma: 'none',
-        htmlWhitespaceSensitivity: 'ignore'
+        htmlWhitespaceSensitivity: 'css'
       }
     ],
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
