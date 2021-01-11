@@ -20,8 +20,6 @@ module.exports = {
         htmlWhitespaceSensitivity: 'css'
       }
     ],
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     eqeqeq: ['error', 'always'],
     quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: false }],
     curly: ['error', 'all'],
